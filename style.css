@@ -1,0 +1,17 @@
+*{
+    margin: 2%;
+    padding: 0;
+}
+body{
+    background: url(img.jpg);
+    background-size: 110%;
+    background-position:-14px -17px;
+}
+div.register{
+    backdrop-filter: blur(px);
+    width: 50%;
+    font-size: larger;
+    border-radius: 10px;
+    margin: -35px;
+    width: 1000px;
+}
