@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script>
+      function verify() {
+        var form = document.forms[0];
+        for (i = 0; i < form.elements.length; i++) {
+          if (form.elements[i].type == "text" && form.elements[i].value == "") {
+            alert("Please fill the form");
+            form.elements[i].focus();
+            return false;
+          }
+        }
+        alert("Email ID registered successfully!");
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      Enter Username: <input type="text" name="name" /><br /><br />
+      Enter Email Id: <input type="text" name="email" /><br /><br />
+    </form>
+    <input type="button" value="Submit" onClick="verify()" />
+  </body>
+</html>
