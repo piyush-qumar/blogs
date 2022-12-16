@@ -9,14 +9,14 @@
         {
           var username=document.getElementById("username").value;
           var password=document.getElementById("password").value;
-          if(username=="admin" && password=="user")
+          if(username=="" || password=="")
           {
-            alert("login successful");
+            alert("login failed");
             return false;
           }
           else
           {
-            alert("login failed");
+            alert("login successful");
           }
         }
       </script>

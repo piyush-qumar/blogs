@@ -1,6 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.applet.*;
+// import java.applet.*;
 
 public class appletdemo extends Frame implements ActionListener {
     Label l1 = new Label("user name");
